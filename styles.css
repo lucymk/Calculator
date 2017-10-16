@@ -1,7 +1,3 @@
-<head>
-<link rel="stylesheet" type="text/css" href="mystyle.css">
-</head>
-
 calc_body {
 height: 90vh;
 width: 40vw;
@@ -11,6 +7,7 @@ background-color: #ffd11a;
 display {
 height: 25%;
 width: 100%;
+
 background-color: #4d4d4d;
 }
 
@@ -18,6 +15,7 @@ row {
 height: 12.5%;
 width: 100%;
 }
+
 
 last_row {
 height: 25%;

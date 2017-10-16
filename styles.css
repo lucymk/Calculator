@@ -1,53 +1,53 @@
-calc_body {
+.calc_body {
 height: 90vh;
 width: 40vw;
 background-color: #ffd11a;
 }
 
-display {
+.display {
 height: 25%;
 width: 100%;
 
 background-color: #4d4d4d;
 }
 
-row {
+.row {
 height: 12.5%;
 width: 100%;
 }
 
 
-last_row {
+.last_row {
 height: 25%;
 width: 100%;
 }
 
-small_button {
+.small_button {
 height: 100%;
 width: 25%;
 }
 
-number {
+.number {
 background-color: #99ebff;
 }
 
-decimal {
+.decimal {
 background-color: #00a3cc;
 }
 
-minus {
+.minus {
 background-color: #00a3cc;
 }
 
-operator {
+.operator {
 background-color: #ff8080;
 }
 
-big_button {
+.big_button {
 height: 100%;
 width: (100/3)%;
 }
 
-clear {
+.clear {
 background-color: #99e600;
 }

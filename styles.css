@@ -39,6 +39,7 @@ width: 23.75%;
 display: inline-block;
 font-size: 8vh;
 padding: 0% 5% 5% 5%;
+border-radius: 2.5%;
 box-sizing: border-box;
 }
 
@@ -64,6 +65,7 @@ width: 49%;
 display: inline-block;
 font-size: 8vh;
 box-sizing: border-box;
+border-radius: 2.5%;
 padding: 5% 5% 0% 5%;
 }
 

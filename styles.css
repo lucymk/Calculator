@@ -37,6 +37,9 @@ box-sizing: border-box;
 height: 100%;
 width: 23.75%;
 display: inline-block;
+font-size: 8vh;
+padding: 0% 5% 5% 5%;
+box-sizing: border-box;
 }
 
 .number {
@@ -59,41 +62,9 @@ background-color: #ff8080;
 height: 100%;
 width: 49%;
 display: inline-block;
-}
-
-.clear {
-background-color: #99e600;
-}
-
-.last_row {
-height: 25%;
-width: 100%;
-}
-
-.small_button {
-height: 100%;
-width: 25%;
-}
-
-.number {
-background-color: #99ebff;
-}
-
-.decimal {
-background-color: #00a3cc;
-}
-
-.minus {
-background-color: #00a3cc;
-}
-
-.operator {
-background-color: #ff8080;
-}
-
-.big_button {
-height: 100%;
-width: 33.3%;
+font-size: 8vh;
+box-sizing: border-box;
+padding: 5% 5% 0% 5%;
 }
 
 .clear {

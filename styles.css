@@ -1,8 +1,9 @@
 .calc_body {
 height: 97.5vh;
 width: 40vw;
-min-height: 300px;
+min-height: 350px;
 min-width: 300px;
+max-width: 400px;
 background-color: #ffd11a;
 margin: auto;
 border-radius: 2.5%;

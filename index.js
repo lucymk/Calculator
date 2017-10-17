@@ -14,7 +14,7 @@ function calc_function(e) {
   if (buttonType == "small_button minus") {
    document.getElementById('output').innerHTML = -x;
   }
-  if (buttonType == "small_button decimal") {
+  if (buttonType == "small_button decimal" && ) {
    document.getElementById('output').innerHTML = x + '.' ;
   }
   if (buttonType == "small_button operator" &&
@@ -28,7 +28,8 @@ function calc_function(e) {
     document.getElementById('output').innerHTML = x + '/';
   }
   if (buttonType == "big_button operator") {
-   document.getElementById('output').innerHTML = eval(x);
+   var y = eval(x);
+   document.getElementById('output').innerHTML = Number(Math.round(y+'e2')+'e-2');
   }
 }
 

@@ -23,10 +23,11 @@ position: relative
 #output {
   position: absolute;
   bottom:0;
-  right:0;
+  right:2%;
   font-size: 15vh;
   color: white;
-  padding-right: 2.5%;
+  max-width: 95%;
+  overflow-x: scroll;
 }
 
 .row {

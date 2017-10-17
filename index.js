@@ -3,6 +3,9 @@ function calc_function(e) {
   var x = document.getElementById('output').innerHTML;
   var l = x.length;
   var buttonType = e.target.className;
+  if (x == "NaN" && buttonType !== "big_button clear") {
+    return;
+  }
   if (buttonType == "small_button number" && x == '0') {
    document.getElementById('output').innerHTML = e.target.innerHTML;
   }

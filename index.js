@@ -11,8 +11,11 @@ function calc_function(e) {
   if (buttonType == "big_button clear") {
    document.getElementById('output').innerHTML = '0';
   }
-  if (buttonType == "small_button minus") {
+  if (buttonType == "small_button minus" && x !== '0') {
    document.getElementById('output').innerHTML = -x;
+  }
+  if (buttonType == "small_button minus" && x == '0') {
+   document.getElementById('output').innerHTML = '-';
   }
   if (buttonType == "small_button decimal" && ) {
    document.getElementById('output').innerHTML = x + '.' ;

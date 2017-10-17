@@ -17,8 +17,15 @@ function calc_function(e) {
   if (buttonType == "small_button decimal") {
    document.getElementById('output').innerHTML = x + '.' ;
   }
-  if (buttonType == "small_button operator") {
+  if (buttonType == "small_button operator" &&
+  (e.target.innerHTML == '+' || e.target.innerHTML == '-')) {
    document.getElementById('output').innerHTML = x + e.target.innerHTML;
+  }
+  if (buttonType == "small_button operator" && e.target.innerHTML == 'x' ) {
+    document.getElementById('output').innerHTML = x + '*';
+  }
+  if (buttonType == "small_button operator" && e.target.innerHTML == '÷' ) {
+    document.getElementById('output').innerHTML = x + '/';
   }
   if (buttonType == "big_button operator") {
    document.getElementById('output').innerHTML = eval(x);

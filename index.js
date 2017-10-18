@@ -25,7 +25,12 @@ function calc_function(e) {
    document.getElementById('output').innerHTML = x + '-';
   }
   if (buttonType == "small_button decimal") {
-   document.getElementById('output').innerHTML = x + '.' ;
+    if ((/\./g.test(x) === true && /([-+x÷]{1,1}[0-9]*)$/.test(x) === true)) {
+       document.getElementById('output').innerHTML = x + '.' ;
+     }
+     else if (/\./g.test(x) === false) {
+       document.getElementById('output').innerHTML = x + '.' ;
+     }
   }
   if (buttonType == "small_button operator" && (e.target.innerHTML == '+' || e.target.innerHTML == '-') && isNaN(x[l-1])===false) {
   document.getElementById('output').innerHTML = x + e.target.innerHTML;
